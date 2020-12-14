@@ -18,6 +18,7 @@ class QuizBot:
         bot.get('https://www.stagecast.io/')
         time.sleep(3)
 
+
         quizCode = bot.find_element_by_name('code')
         quizCode.clear()
         quizCode.send_keys('8483')
